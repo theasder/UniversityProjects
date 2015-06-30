@@ -10,7 +10,7 @@
 > x[1] <- 1
 > x[2] <- FALSE
 > x[c(3,5,8,9)] <- x[c(1,2)]
-> x[x > 1] # тут именно строки сравниваются
+> x[x > 1] # strings are compared only
 [1] "FALSE" "3.14" "FALSE" "bce"
 > y <- c(NULL, 1, NULL, 0)
 > y + 1.43
